@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Blether</title>
 </head>
 <body>
-    
+    <header class="columns is-centered">
+        <h1 class="title is-1">Weather Blether</h1>
+    </header>
+    <main>
+        <aside>
+            <form>
+                <div>
+                    <p>Look up Cities</p>
+                    <input placeholder="City Name"></input>
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+            <p>Recent Cities</p>
+            <ul>
+            </ul>
+        </aside>
+        <div class="container">
+            <div class="hero">
+                <div class="container">
+                    <h2>Display Weather Information</h2>
+                </div>
+                <div class="container">
+                    <h2>Forecast will go Here</h2> <!--Forcast Section-->
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
 </html>
