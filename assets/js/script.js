@@ -1,3 +1,9 @@
+// Create Event Listener for Button
+function searchCities() {
+  event.preventDefault();
+  console.log("button clicked");
+}
+
 // Timer permitting add gobbledygook text to fit the "Weather Blether" idea
 
 // var requestURL =
