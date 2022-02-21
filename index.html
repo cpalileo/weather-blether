@@ -16,19 +16,12 @@
             <div>
                 <p>Look up Cities</p>
                 <input id="citySearch" placeholder="City Name"></input>
-                <button onclick="searchCities()">Search</button>
+                <button onclick="searchCities()" class="searchButton">Search</button>
                 </div>
         </form>
         <div class="m-5 border border-dark">
-            <p>Recent Cities</p>
-            <ul id="cityHistory">
-                <li>LA</li>
-                <li>PA</li>
-                <li>V Town</li>
-                <li>Richmond</li>
-                <li>Sacramento</li>
-                <li>Biggity Biggity O</li>
-            </ul>
+            <h3>Recent Cities</h3>
+            <div id="recentCities"></div>
         </div>
     </aside>
     <div class="container col-sm-8 border border-dark">
@@ -36,17 +29,16 @@
         <div class="container border border-dark">
             <div class="hero">
                 <div class="container border border-dark">
-                    <h2 class="container border border-dark">Current Conditions</h2>
-                    <div class="conatiner border border-dark">
-                        <p class="tempCurrent"></p>
-                        <p class="iconCurrent"></p>
+                        <h2 class="cityDisplay"></h2>
+                        <img src="" class="iconCurrent"></img>
+                        <p class="conditionCurrent"></p>
                         <p class="tempCurrent"></p>
                         <p class="humidCurrent"></p>
                         <p class="windCurrent"></p>
                         <p class="uvCurrent"></p>
                     </div>
                 </div>
-                <div class="container border border-dark">
+<!--                <div class="container border border-dark">
                     <h2 class="container border border-dark">5 Day Forecast</h2>
                     <div class="conatiner border border-dark">
                         <p class="tempFuture"></p>
@@ -55,7 +47,7 @@
                         <p class="humidFuture"></p>
                         <p class="windFuture"></p>
                         <p class="uvFuture"></p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
