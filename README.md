@@ -11,5 +11,7 @@ I plan on completing this assignment in order to make it presentable for my port
 - Incorporate my ideas that are fitting to the app name "Weather Blether"
 
 [GitHub Repository](https://github.com/cpalileo/weather-blether)
+
 [Deployed](https://cpalileo.github.io/weather-blether/)
+
 ![Screen shot](https://github.com/cpalileo/weather-blether/blob/main/assets/images/screenshot.jpg?raw=true)
