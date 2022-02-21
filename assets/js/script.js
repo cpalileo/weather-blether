@@ -63,11 +63,19 @@ function makeList(cityList) {
   var ul = document.createElement("ul");
   for (i = 0; i <= cityList.length - 1; i++) {
     var li = document.createElement("li");
+    li.id = "cityItem";
     li.innerHTML = cityList[i];
     li.setAttribute("style", "display: block;");
     ul.appendChild(li);
   }
   cont.appendChild(ul);
+  document
+    .getElementById("cityItem")
+    .addEventListener("click", function (liveLink) {
+      if (liveLink.target && liveLink.target.nodeName == "LI") {
+        console.log(liveLink.target.id + " was clicked");
+      }
+    });
 }
 
 // makeLocationsList();
